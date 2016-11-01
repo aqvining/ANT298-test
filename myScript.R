@@ -17,13 +17,5 @@ plot(x,y, cex=.5, col="black", pch=3)
 
 abline(lm(y~x), lty=2, col="pink")
 
-
-<<<<<<< HEAD
-## hey guys, how's it going?
-
-##Alexander's comment
-=======
 ## Balboa House Rules
-## hey guys, how's it going?
 
->>>>>>> origin/master

@@ -11,12 +11,10 @@ eps <- rnorm(1000,mean=0,sd=50)
 x <- runif(1000, 0,100)
 y <- m*x+b+eps
 
-plot(x,y, cex=.5, col="blue")
+plot(x,y, cex=.5, col="black", pch=3)
 ########
-<<<<<<< HEAD
+
 abline(lm(y~x), lty=2, col="pink")
-=======
-abline(lm(y~x), lty=2, col="black")
->>>>>>> origin/master
 
 ## hey guys, how's it going?
+## goooood

@@ -13,10 +13,7 @@ y <- m*x+b+eps
 
 plot(x,y, cex=.5, col="blue")
 ########
-<<<<<<< HEAD
 abline(lm(y~x), lty=2, col="pink")
-=======
-abline(lm(y~x), lty=2, col="black")
->>>>>>> origin/master
+
 
 ## hey guys, how's it going?

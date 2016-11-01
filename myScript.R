@@ -14,12 +14,8 @@ y <- m*x+b+eps
 plot(x,y, cex=.5, col="black", pch=3)
 ########
 
-<<<<<<< HEAD
-## Balboa House Rules
-## hey guys, how's it going?
-=======
+
 abline(lm(y~x), lty=2, col="pink")
 
 ## hey guys, how's it going?
-## goooood
->>>>>>> origin/master
+

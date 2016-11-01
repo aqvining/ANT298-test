@@ -11,9 +11,15 @@ eps <- rnorm(1000,mean=0,sd=50)
 x <- runif(1000, 0,100)
 y <- m*x+b+eps
 
-plot(x,y, cex=.5, col="blue")
+plot(x,y, cex=.5, col="black", pch=3)
 ########
-abline(lm(y~x), lty=2, col="pink")
 
+<<<<<<< HEAD
 ## Balboa House Rules
 ## hey guys, how's it going?
+=======
+abline(lm(y~x), lty=2, col="pink")
+
+## hey guys, how's it going?
+## goooood
+>>>>>>> origin/master

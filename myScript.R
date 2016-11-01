@@ -15,5 +15,5 @@ plot(x,y, cex=.5, col="blue")
 ########
 abline(lm(y~x), lty=2, col="pink")
 
-
+## Balboa House Rules
 ## hey guys, how's it going?

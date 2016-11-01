@@ -13,4 +13,5 @@ y <- m*x+b+eps
 
 plot(x,y, cex=.5, col="blue")
 ########
+abline(lm(y~x), lty=2, col="red")
 
